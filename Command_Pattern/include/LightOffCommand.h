@@ -9,7 +9,7 @@ class LightOffCommand : public Command
 	public:
 		LightOffCommand( Light* lightObject );
 
-	protected:
+	public:
 		void execute();
 
 	private:
