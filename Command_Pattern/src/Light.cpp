@@ -1,4 +1,4 @@
-#include "../include/Light.h"
+#include "Light.h"
 
 
 void Light::turnOffLight()
