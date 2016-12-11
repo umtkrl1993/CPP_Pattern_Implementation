@@ -6,8 +6,8 @@
 class Light
 {
 	public:
-		void turnOnLight();
-		void turnOffLight();
+        void turnOnLight();
+        void turnOffLight();
 };
 
 #endif

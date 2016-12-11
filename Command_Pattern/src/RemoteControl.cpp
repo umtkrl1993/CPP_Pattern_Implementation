@@ -4,15 +4,15 @@
 
 RemoteControl::RemoteControl( int initialSlotSize )
 {
-	slots.reserve( SLOT_SIZE );
+    slots.reserve( SLOT_SIZE );
 }
 
 void RemoteControl::setSlot( Command* command, int slot )
 {
-	slots[slot] = command;
+    slots[slot] = command;
 }
 
 void RemoteControl::buttonWasPressed( int slot )
 {
-	slots[slot]->execute();
+    slots[slot]->execute();
 }

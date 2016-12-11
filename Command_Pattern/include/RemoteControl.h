@@ -8,12 +8,12 @@
 class RemoteControl
 {
 	public:
-		RemoteControl( int initialSlotSize );
-		void setSlot( Command* command, int slot );
-		void buttonWasPressed( int slot );
+        RemoteControl( int initialSlotSize );
+        void setSlot( Command* command, int slot );
+        void buttonWasPressed( int slot );
 
 	private:
-		std::vector<Command*> slots;
+        std::vector<Command*> slots;
 
 
 };

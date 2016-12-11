@@ -3,11 +3,11 @@
 
 LightOffCommand::LightOffCommand( Light* lightObject )
 {
-	light = lightObject;
+    light = lightObject;
 }
 
 
 void LightOffCommand::execute()
 {
-	light->turnOffLight();
+    light->turnOffLight();
 }

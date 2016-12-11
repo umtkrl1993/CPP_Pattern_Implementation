@@ -7,13 +7,13 @@
 class LightOffCommand : public Command
 {
 	public:
-		LightOffCommand( Light* lightObject );
+        LightOffCommand( Light* lightObject );
 
 	public:
-		void execute();
+        void execute();
 
 	private:
-		Light* light;
+        Light* light;
 };
 
 
