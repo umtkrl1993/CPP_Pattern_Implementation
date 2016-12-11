@@ -5,7 +5,7 @@
 
 class Light
 {
-	public:
+    public:
         void turnOnLight();
         void turnOffLight();
 };

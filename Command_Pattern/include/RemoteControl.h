@@ -7,12 +7,12 @@
 #include <vector>
 class RemoteControl
 {
-	public:
+    public:
         RemoteControl( int initialSlotSize );
         void setSlot( Command* command, int slot );
         void buttonWasPressed( int slot );
 
-	private:
+    private:
         std::vector<Command*> slots;
 
 
